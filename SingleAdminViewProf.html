@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .well{
+        text-align: left;
+    }
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+     .jumbotron {
+      display: none;
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Nimi + Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Admin </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Õppejõud luubi alla!</h1>
+    <p>Tule hinda õppejõude ja õppeaineid, sinu arvamus on meile oluline.</p>
+  </div>
+</div>
+
+<div class="container text-center">
+  <div class="">
+    <div class="">
+     <div class="">
+        <h2>Eesnimi Perekonnanimi</h2>
+		<h4>Ülikooli nimi</h4>
+			<div class="col-xs-6">
+			<h3>Õpetatavad ained</h3>
+			<table class="table table-hover">
+				<tbody>
+					<tr class="">
+						<td>1.</td>
+						<td><a href="singleViewCourse.html">Õppeaine number 1</a></td>
+						<td>
+							<button type="button" class="btn btn-danger btn-sm">Dislike</button>
+							99%
+							<button type="button" class="btn btn-success btn-sm">Like</button>
+						</td>
+					</tr>
+					<tr class="">
+						<td>2.</td>
+						<td><a href="singleViewCourse.html">Õppeaine number 2</a></td>
+						<td>
+							<button type="button" class="btn btn-danger btn-sm">Dislike</button>
+							90%
+							<button type="button" class="btn btn-success btn-sm">Like</button>
+						</td>						
+					</tr>
+					<tr class="">
+						<td>3.</td>
+						<td><a href="singleViewCourse.html">Õppeaine number 3</a></td>
+						<td>
+							<button type="button" class="btn btn-danger btn-sm">Dislike</button>
+							19%
+							<button type="button" class="btn btn-success btn-sm">Like</button>
+						</td>	
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-xs-6">
+		<h3>Kommentaarid</h3>
+			<table class="table table-hover">
+				<tbody>
+					<tr class="">
+						<td>
+							<textarea class="form-control" placeholder="Sisesta siia kommentaar..."></textarea>
+						</td>
+						<td><button type="button" class="btn btn-primary">Sisesta</button><td>
+					</tr>
+					<tr class="">
+
+						<td>See siin on kommentaar. Lausa esimene kommentaar. Ausalt, kõige esimene kommentaar, mis kunagi kogu maailmas on kirjutatud!</td>
+						<td>
+							<button type="button" class="btn btn-success btn-sm">Like</button>
+							90%
+							<button type="button" class="btn btn-danger btn-sm">Dislike</button>			
+						</td>	
+						<td>
+							<button type="button" class="btn btn-light">&#9998;</button>
+
+						</td>					
+					</tr>
+					<tr class="">
+						<td>See siin on kommentaar. Juba teine kommentaar. Ausalt, see pole kõige esimene kommentaar, mis kunagi kogu maailmas on kirjutatud!</td>
+						<td>
+						<button type="button" class="btn btn-success btn-sm">Like</button>							
+							19%
+							<button type="button" class="btn btn-danger btn-sm">Dislike</button>
+						</td>
+						<td>
+							<button type="button" class="btn btn-light">&#9998;</button>
+
+						</td>			
+					</tr>
+
+				</tbody>
+			</table>
+					</div>
+		</div>
+    </div>  
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>apPIHOmmeDL 2018</p>
+</footer>
+
+</body>
+</html>
